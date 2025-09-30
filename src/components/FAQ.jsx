@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { ChevronDown } from "lucide-react"; // npm i lucide-react
+import { ChevronDown } from "lucide-react";
 
 const faqs = [
 	{
@@ -42,7 +42,7 @@ export default function FAQ() {
 					<div className="flex justify-between items-center">
 						<p className="font-semibold">{item.q}</p>
 						<ChevronDown
-							className={`w-5 h-5 transition-transform ${
+							className={`w-6 h-6 transition-transform text-gray-500  ${
 								openIndex === index ? "rotate-180" : ""
 							}`}
 						/>
