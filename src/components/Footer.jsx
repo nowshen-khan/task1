@@ -15,12 +15,14 @@ export default function Footer() {
 			<div
 				className="max-w-6xl mx-auto grid gap-8 
 				grid-cols-1 
-				md:grid-cols-2 md:grid-rows-2
-				lg:grid-cols-4 lg:grid-rows-1"
+				sm:grid-cols-2 sm:grid-rows-2
+				md:grid-cols-4 md:grid-rows-1"
 			>
 				{/* Logo */}
-				<div className="text-left md:col-span-2 lg:col-span-1">
-					<h2 className="font-bold text-gray-950 text-3xl">Business Logo</h2>
+				<div className="text-left sm:col-span-2 md:col-span-1">
+					<h2 className="font-bold text-gray-950 text-2xl  lg:text-3xl ">
+						Business Logo
+					</h2>
 					<div className="flex gap-4 mt-3">
 						<a href="https://www.facebook.com/" target="_blank">
 							<Facebook className="w-6 h-6" />
@@ -63,7 +65,7 @@ export default function Footer() {
 				</div>
 
 				{/* Contact Info */}
-				<div className="text-left md:col-span-2 lg:col-span-1">
+				<div className="text-left sm:col-span-2 md:col-span-1">
 					<h3 className="font-semibold mb-2">Contact Info</h3>
 					<ul className="space-y-2 text-sm">
 						<li className="flex flex-row items-center">
